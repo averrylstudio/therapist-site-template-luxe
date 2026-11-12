@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — The Whitmore Practice</title>
+  <meta name="description" content="Request a complimentary fifteen-minute consultation, or write a short note. A sample contact page for a private practice.">
+  <meta name="theme-color" content="#1A1512">
+  <link rel="canonical" href="https://averrylstudio.github.io/therapist-site-template-luxe/contact.html">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="site.webmanifest">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contact — The Whitmore Practice">
+  <meta property="og:description" content="Request a complimentary fifteen-minute consultation, or write a short note. A sample contact page for a private practice.">
+  <meta property="og:url" content="https://averrylstudio.github.io/therapist-site-template-luxe/contact.html">
+  <meta property="og:image" content="https://averrylstudio.github.io/therapist-site-template-luxe/images/entrance.jpg">
+  <meta property="og:image:alt" content="A modern house at dusk, warm light at the doorway — a placeholder photograph.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contact — The Whitmore Practice">
+  <meta name="twitter:description" content="Request a complimentary fifteen-minute consultation, or write a short note. A sample contact page for a private practice.">
+  <meta name="twitter:image" content="https://averrylstudio.github.io/therapist-site-template-luxe/images/entrance.jpg">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("wp-theme");
+        var m = localStorage.getItem("wp-motion");
+        var y = localStorage.getItem("wp-type");
+        if (t) document.documentElement.setAttribute("data-theme", t);
+        if (m) document.documentElement.setAttribute("data-motion", m);
+        if (y) document.documentElement.setAttribute("data-type", y);
+      } catch (e) {}
+    })();
+  </script>
+  
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" data-brand>
+        <img class="brand-logo" data-logo alt="" hidden>
+        <svg class="mark" data-mark viewBox="0 0 64 64" fill="none" aria-hidden="true">
+        <rect x="2" y="2" width="60" height="60" stroke="currentColor" stroke-width="1"/>
+        <path d="M16 20l9.5 26 6.5-16 6.5 16L48 20" stroke="currentColor" stroke-width="1.5" stroke-linejoin="miter"/>
+      </svg>
+        <span class="wordmark" data-wordmark>
+          <span class="wordmark-name" data-practice-name>The Whitmore Practice</span>
+          <span class="wordmark-sub">Private psychotherapy</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="investment.html">Investment</a>
+        <a href="insights.html">Insights</a>
+        <a class="nav-cta" data-consult-cta href="contact.html">Request a consult</a>
+      </nav>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-panel" aria-label="Open menu">
+        <span class="hamburger" aria-hidden="true"><span></span><span></span><span></span></span>
+      </button>
+    </div>
+  </header>
+  <nav class="mobile-panel" id="mobile-panel" aria-hidden="true" aria-label="Mobile">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="investment.html">Investment</a>
+    <a href="insights.html">Insights</a>
+    <a href="contact.html">Contact</a>
+    <a class="nav-cta" data-consult-cta href="contact.html">Request a consult</a>
+  </nav>
+
+  <main id="main">
+
+    <header class="page-hero">
+      <div class="wrap">
+        <p class="eyebrow">Begin here</p>
+        <h1>A private conversation</h1>
+        <p class="lede">Write a short note, or arrange a complimentary fifteen-minute consultation. You do not need the right words.</p>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="wrap split top">
+        <div>
+          <p class="form-note" data-emergency-note>This form is not for emergencies. If you are in crisis, call or text 988 (US) or your local emergency number, or go to your nearest emergency department.</p>
+          <div id="form-alert" class="form-alert error" hidden role="alert"></div>
+          <form class="inquiry" id="inquiry-form" action="https://formsubmit.co/hello@example.com" method="POST">
+            <input type="text" name="website" class="honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <div class="field-row">
+              <div class="field">
+                <label for="name">Your name <span class="req">*</span></label>
+                <input id="name" name="name" type="text" required autocomplete="name">
+              </div>
+              <div class="field">
+                <label for="email">Email <span class="req">*</span></label>
+                <input id="email" name="email" type="email" required autocomplete="email">
+              </div>
+            </div>
+            <div class="field-row">
+              <div class="field">
+                <label for="phone">Telephone</label>
+                <input id="phone" name="phone" type="tel" autocomplete="tel">
+              </div>
+              <div class="field">
+                <label for="interest">I am writing about</label>
+                <select id="interest" name="interest">
+                  <option value="A first consultation">A first consultation</option>
+                  <option value="Individual psychotherapy">Individual psychotherapy</option>
+                  <option value="Couples psychotherapy">Couples psychotherapy</option>
+                  <option value="A question about the practice">A question about the practice</option>
+                </select>
+              </div>
+            </div>
+            <div class="field">
+              <label for="preferred">Preferred way to meet</label>
+              <select id="preferred" name="preferred">
+                <option value="No preference">No preference</option>
+                <option value="In person">In person</option>
+                <option value="Telehealth">Telehealth</option>
+                <option value="A telephone consultation first">A telephone consultation first</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="message">A short note <span class="req">*</span></label>
+              <textarea id="message" name="message" required rows="7" placeholder="A sentence is enough."></textarea>
+            </div>
+            <label class="consent">
+              <input id="consent" name="consent" type="checkbox" value="yes" required>
+              <span data-consent-text>I understand this form is not for emergencies, and I am happy for the practice to reply to me by email or the method I chose above.</span>
+            </label>
+            <div class="btn-row">
+              <button class="btn btn-primary" type="submit">Send my request</button>
+            </div>
+          </form>
+        </div>
+        <aside>
+          <p class="eyebrow">The office</p>
+          <h2 style="font-size:2rem;margin:0 0 1rem" data-consult-title>A private conversation, first.</h2>
+          <p class="consult-offer" data-consult-duration></p>
+          <p data-consult-text></p>
+          <p style="margin-top:1.6rem"><strong data-therapist-name>Dr. Elise Whitmore, Ph.D.</strong><br><span data-title></span></p>
+          <p data-address></p>
+          <p><a data-email href="mailto:hello@example.com">hello@example.com</a><br>
+             <a data-phone href="tel:5550140900">(555) 014-0900</a><br>
+             <span data-hours></span></p>
+          <p class="muted small" data-telehealth></p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section-elev" aria-labelledby="faq-title">
+      <div class="wrap split top">
+        <div>
+          <p class="eyebrow">Questions</p>
+          <h2 id="faq-title">You may also wish to know</h2>
+        </div>
+        <div class="faq" data-faq></div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <p class="footer-brand" data-practice-name>The Whitmore Practice</p>
+          <p data-short>Private psychotherapy for executives, founders, physicians and couples who prefer their work held with discretion.</p>
+        </div>
+        <div class="footer-col">
+          <h3>The practice</h3>
+          <ul>
+            <li><span data-therapist-name>Dr. Elise Whitmore, Ph.D.</span></li>
+            <li><span data-title>Licensed Clinical Psychologist</span></li>
+            <li><span data-address>A discreet Midtown address · New York, NY</span></li>
+            <li><a data-email href="mailto:hello@example.com">hello@example.com</a></li>
+            <li><a data-phone href="tel:5550140900">(555) 014-0900</a></li>
+            <li><span data-hours>Monday–Thursday, 8am–6pm ET</span></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Pages</h3>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="investment.html">Investment</a></li>
+            <li><a href="insights.html">Insights</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="article.html">A sample essay</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="crisis" data-crisis>If you are in crisis, call or text 988 (US) or your local emergency number. This website is not a crisis service and cannot provide emergency support.</p>
+      <div class="comfort" id="comfort" role="group" aria-label="Comfort controls">
+        <button type="button" id="comfort-type" aria-pressed="false">Larger text</button>
+        <button type="button" id="comfort-motion" aria-pressed="false">Reduce motion</button>
+        <button type="button" id="comfort-theme" aria-pressed="false">Dark appearance</button>
+      </div>
+      <div class="footer-base">
+        <p>© The Whitmore Practice. A fictional sample practice for a website template. All names are placeholders.</p>
+        <p data-footer-credit><a href="https://averryl.com">Site by Averryl Studio</a></p>
+      </div>
+    </div>
+  </footer>
+  <script src="site.config.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

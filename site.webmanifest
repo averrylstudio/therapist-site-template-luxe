@@ -1,0 +1,12 @@
+{
+  "name": "The Whitmore Practice",
+  "short_name": "Whitmore",
+  "description": "Private psychotherapy in Manhattan — a sample practice for a therapist website template.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#F3EDE3",
+  "theme_color": "#1A1512",
+  "icons": [
+    { "src": "images/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
